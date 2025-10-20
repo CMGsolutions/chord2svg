@@ -1,0 +1,3404 @@
+[
+  {
+    "name": "Cb-0",
+    "midicent": 1050,
+    "step": -30,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb0",
+    "midicent": 1100,
+    "step": -30,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+0",
+    "midicent": 1150,
+    "step": -30,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-0",
+    "midicent": 1150,
+    "step": -30,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C0",
+    "midicent": 1200,
+    "step": -30,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+0",
+    "midicent": 1250,
+    "step": -30,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-0",
+    "midicent": 1250,
+    "step": -30,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#0",
+    "midicent": 1300,
+    "step": -30,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+0",
+    "midicent": 1350,
+    "step": -30,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-0",
+    "midicent": 1250,
+    "step": -29,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db0",
+    "midicent": 1300,
+    "step": -29,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+0",
+    "midicent": 1350,
+    "step": -29,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-0",
+    "midicent": 1350,
+    "step": -29,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D0",
+    "midicent": 1400,
+    "step": -29,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+0",
+    "midicent": 1450,
+    "step": -29,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-0",
+    "midicent": 1450,
+    "step": -29,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#0",
+    "midicent": 1500,
+    "step": -29,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+0",
+    "midicent": 1550,
+    "step": -29,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-0",
+    "midicent": 1450,
+    "step": -28,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb0",
+    "midicent": 1500,
+    "step": -28,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+0",
+    "midicent": 1550,
+    "step": -28,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-0",
+    "midicent": 1550,
+    "step": -28,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E0",
+    "midicent": 1600,
+    "step": -28,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+0",
+    "midicent": 1650,
+    "step": -28,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-0",
+    "midicent": 1650,
+    "step": -28,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#0",
+    "midicent": 1700,
+    "step": -28,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+0",
+    "midicent": 1750,
+    "step": -28,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-0",
+    "midicent": 1550,
+    "step": -27,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb0",
+    "midicent": 1600,
+    "step": -27,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+0",
+    "midicent": 1650,
+    "step": -27,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-0",
+    "midicent": 1650,
+    "step": -27,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F0",
+    "midicent": 1700,
+    "step": -27,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+0",
+    "midicent": 1750,
+    "step": -27,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-0",
+    "midicent": 1750,
+    "step": -27,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#0",
+    "midicent": 1800,
+    "step": -27,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+0",
+    "midicent": 1850,
+    "step": -27,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-0",
+    "midicent": 1750,
+    "step": -26,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb0",
+    "midicent": 1800,
+    "step": -26,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+0",
+    "midicent": 1850,
+    "step": -26,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-0",
+    "midicent": 1850,
+    "step": -26,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G0",
+    "midicent": 1900,
+    "step": -26,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+0",
+    "midicent": 1950,
+    "step": -26,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-0",
+    "midicent": 1950,
+    "step": -26,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#0",
+    "midicent": 2000,
+    "step": -26,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+0",
+    "midicent": 2050,
+    "step": -26,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-0",
+    "midicent": 1950,
+    "step": -25,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab0",
+    "midicent": 2000,
+    "step": -25,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+0",
+    "midicent": 2050,
+    "step": -25,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-0",
+    "midicent": 2050,
+    "step": -25,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A0",
+    "midicent": 2100,
+    "step": -25,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+0",
+    "midicent": 2150,
+    "step": -25,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-0",
+    "midicent": 2150,
+    "step": -25,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#0",
+    "midicent": 2200,
+    "step": -25,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+0",
+    "midicent": 2250,
+    "step": -25,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-0",
+    "midicent": 2150,
+    "step": -24,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb0",
+    "midicent": 2200,
+    "step": -24,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+0",
+    "midicent": 2250,
+    "step": -24,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-0",
+    "midicent": 2250,
+    "step": -24,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B0",
+    "midicent": 2300,
+    "step": -24,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+0",
+    "midicent": 2350,
+    "step": -24,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-0",
+    "midicent": 2350,
+    "step": -24,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#0",
+    "midicent": 2400,
+    "step": -24,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+0",
+    "midicent": 2450,
+    "step": -24,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Cb-1",
+    "midicent": 2250,
+    "step": -23,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb1",
+    "midicent": 2300,
+    "step": -23,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+1",
+    "midicent": 2350,
+    "step": -23,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-1",
+    "midicent": 2350,
+    "step": -23,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C1",
+    "midicent": 2400,
+    "step": -23,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+1",
+    "midicent": 2450,
+    "step": -23,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-1",
+    "midicent": 2450,
+    "step": -23,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#1",
+    "midicent": 2500,
+    "step": -23,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+1",
+    "midicent": 2550,
+    "step": -23,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-1",
+    "midicent": 2450,
+    "step": -22,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db1",
+    "midicent": 2500,
+    "step": -22,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+1",
+    "midicent": 2550,
+    "step": -22,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-1",
+    "midicent": 2550,
+    "step": -22,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D1",
+    "midicent": 2600,
+    "step": -22,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+1",
+    "midicent": 2650,
+    "step": -22,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-1",
+    "midicent": 2650,
+    "step": -22,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#1",
+    "midicent": 2700,
+    "step": -22,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+1",
+    "midicent": 2750,
+    "step": -22,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-1",
+    "midicent": 2650,
+    "step": -21,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb1",
+    "midicent": 2700,
+    "step": -21,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+1",
+    "midicent": 2750,
+    "step": -21,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-1",
+    "midicent": 2750,
+    "step": -21,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E1",
+    "midicent": 2800,
+    "step": -21,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+1",
+    "midicent": 2850,
+    "step": -21,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-1",
+    "midicent": 2850,
+    "step": -21,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#1",
+    "midicent": 2900,
+    "step": -21,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+1",
+    "midicent": 2950,
+    "step": -21,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-1",
+    "midicent": 2750,
+    "step": -20,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb1",
+    "midicent": 2800,
+    "step": -20,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+1",
+    "midicent": 2850,
+    "step": -20,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-1",
+    "midicent": 2850,
+    "step": -20,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F1",
+    "midicent": 2900,
+    "step": -20,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+1",
+    "midicent": 2950,
+    "step": -20,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-1",
+    "midicent": 2950,
+    "step": -20,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#1",
+    "midicent": 3000,
+    "step": -20,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+1",
+    "midicent": 3050,
+    "step": -20,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-1",
+    "midicent": 2950,
+    "step": -19,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb1",
+    "midicent": 3000,
+    "step": -19,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+1",
+    "midicent": 3050,
+    "step": -19,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-1",
+    "midicent": 3050,
+    "step": -19,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G1",
+    "midicent": 3100,
+    "step": -19,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+1",
+    "midicent": 3150,
+    "step": -19,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-1",
+    "midicent": 3150,
+    "step": -19,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#1",
+    "midicent": 3200,
+    "step": -19,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+1",
+    "midicent": 3250,
+    "step": -19,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-1",
+    "midicent": 3150,
+    "step": -18,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab1",
+    "midicent": 3200,
+    "step": -18,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+1",
+    "midicent": 3250,
+    "step": -18,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-1",
+    "midicent": 3250,
+    "step": -18,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A1",
+    "midicent": 3300,
+    "step": -18,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+1",
+    "midicent": 3350,
+    "step": -18,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-1",
+    "midicent": 3350,
+    "step": -18,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#1",
+    "midicent": 3400,
+    "step": -18,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+1",
+    "midicent": 3450,
+    "step": -18,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-1",
+    "midicent": 3350,
+    "step": -17,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb1",
+    "midicent": 3400,
+    "step": -17,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+1",
+    "midicent": 3450,
+    "step": -17,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-1",
+    "midicent": 3450,
+    "step": -17,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B1",
+    "midicent": 3500,
+    "step": -17,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+1",
+    "midicent": 3550,
+    "step": -17,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-1",
+    "midicent": 3550,
+    "step": -17,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#1",
+    "midicent": 3600,
+    "step": -17,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+1",
+    "midicent": 3650,
+    "step": -17,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Cb-2",
+    "midicent": 3450,
+    "step": -16,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb2",
+    "midicent": 3500,
+    "step": -16,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+2",
+    "midicent": 3550,
+    "step": -16,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-2",
+    "midicent": 3550,
+    "step": -16,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C2",
+    "midicent": 3600,
+    "step": -16,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+2",
+    "midicent": 3650,
+    "step": -16,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-2",
+    "midicent": 3650,
+    "step": -16,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#2",
+    "midicent": 3700,
+    "step": -16,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+2",
+    "midicent": 3750,
+    "step": -16,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-2",
+    "midicent": 3650,
+    "step": -15,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db2",
+    "midicent": 3700,
+    "step": -15,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+2",
+    "midicent": 3750,
+    "step": -15,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-2",
+    "midicent": 3750,
+    "step": -15,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D2",
+    "midicent": 3800,
+    "step": -15,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+2",
+    "midicent": 3850,
+    "step": -15,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-2",
+    "midicent": 3850,
+    "step": -15,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#2",
+    "midicent": 3900,
+    "step": -15,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+2",
+    "midicent": 3950,
+    "step": -15,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-2",
+    "midicent": 3850,
+    "step": -14,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb2",
+    "midicent": 3900,
+    "step": -14,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+2",
+    "midicent": 3950,
+    "step": -14,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-2",
+    "midicent": 3950,
+    "step": -14,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E2",
+    "midicent": 4000,
+    "step": -14,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+2",
+    "midicent": 4050,
+    "step": -14,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-2",
+    "midicent": 4050,
+    "step": -14,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#2",
+    "midicent": 4100,
+    "step": -14,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+2",
+    "midicent": 4150,
+    "step": -14,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-2",
+    "midicent": 3950,
+    "step": -13,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb2",
+    "midicent": 4000,
+    "step": -13,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+2",
+    "midicent": 4050,
+    "step": -13,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-2",
+    "midicent": 4050,
+    "step": -13,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F2",
+    "midicent": 4100,
+    "step": -13,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+2",
+    "midicent": 4150,
+    "step": -13,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-2",
+    "midicent": 4150,
+    "step": -13,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#2",
+    "midicent": 4200,
+    "step": -13,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+2",
+    "midicent": 4250,
+    "step": -13,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-2",
+    "midicent": 4150,
+    "step": -12,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb2",
+    "midicent": 4200,
+    "step": -12,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+2",
+    "midicent": 4250,
+    "step": -12,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-2",
+    "midicent": 4250,
+    "step": -12,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G2",
+    "midicent": 4300,
+    "step": -12,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+2",
+    "midicent": 4350,
+    "step": -12,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-2",
+    "midicent": 4350,
+    "step": -12,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#2",
+    "midicent": 4400,
+    "step": -12,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+2",
+    "midicent": 4450,
+    "step": -12,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-2",
+    "midicent": 4350,
+    "step": -11,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab2",
+    "midicent": 4400,
+    "step": -11,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+2",
+    "midicent": 4450,
+    "step": -11,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-2",
+    "midicent": 4450,
+    "step": -11,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A2",
+    "midicent": 4500,
+    "step": -11,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+2",
+    "midicent": 4550,
+    "step": -11,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-2",
+    "midicent": 4550,
+    "step": -11,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#2",
+    "midicent": 4600,
+    "step": -11,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+2",
+    "midicent": 4650,
+    "step": -11,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-2",
+    "midicent": 4550,
+    "step": -10,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb2",
+    "midicent": 4600,
+    "step": -10,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+2",
+    "midicent": 4650,
+    "step": -10,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-2",
+    "midicent": 4650,
+    "step": -10,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B2",
+    "midicent": 4700,
+    "step": -10,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+2",
+    "midicent": 4750,
+    "step": -10,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-2",
+    "midicent": 4750,
+    "step": -10,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#2",
+    "midicent": 4800,
+    "step": -10,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+2",
+    "midicent": 4850,
+    "step": -10,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Cb-3",
+    "midicent": 4650,
+    "step": -9,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb3",
+    "midicent": 4700,
+    "step": -9,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+3",
+    "midicent": 4750,
+    "step": -9,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-3",
+    "midicent": 4750,
+    "step": -9,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C3",
+    "midicent": 4800,
+    "step": -9,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+3",
+    "midicent": 4850,
+    "step": -9,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-3",
+    "midicent": 4850,
+    "step": -9,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#3",
+    "midicent": 4900,
+    "step": -9,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+3",
+    "midicent": 4950,
+    "step": -9,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-3",
+    "midicent": 4850,
+    "step": -8,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db3",
+    "midicent": 4900,
+    "step": -8,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+3",
+    "midicent": 4950,
+    "step": -8,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-3",
+    "midicent": 4950,
+    "step": -8,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D3",
+    "midicent": 5000,
+    "step": -8,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+3",
+    "midicent": 5050,
+    "step": -8,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-3",
+    "midicent": 5050,
+    "step": -8,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#3",
+    "midicent": 5100,
+    "step": -8,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+3",
+    "midicent": 5150,
+    "step": -8,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-3",
+    "midicent": 5050,
+    "step": -7,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb3",
+    "midicent": 5100,
+    "step": -7,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+3",
+    "midicent": 5150,
+    "step": -7,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-3",
+    "midicent": 5150,
+    "step": -7,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E3",
+    "midicent": 5200,
+    "step": -7,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+3",
+    "midicent": 5250,
+    "step": -7,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-3",
+    "midicent": 5250,
+    "step": -7,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#3",
+    "midicent": 5300,
+    "step": -7,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+3",
+    "midicent": 5350,
+    "step": -7,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-3",
+    "midicent": 5150,
+    "step": -6,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb3",
+    "midicent": 5200,
+    "step": -6,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+3",
+    "midicent": 5250,
+    "step": -6,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-3",
+    "midicent": 5250,
+    "step": -6,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F3",
+    "midicent": 5300,
+    "step": -6,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+3",
+    "midicent": 5350,
+    "step": -6,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-3",
+    "midicent": 5350,
+    "step": -6,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#3",
+    "midicent": 5400,
+    "step": -6,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+3",
+    "midicent": 5450,
+    "step": -6,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-3",
+    "midicent": 5350,
+    "step": -5,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb3",
+    "midicent": 5400,
+    "step": -5,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+3",
+    "midicent": 5450,
+    "step": -5,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-3",
+    "midicent": 5450,
+    "step": -5,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G3",
+    "midicent": 5500,
+    "step": -5,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+3",
+    "midicent": 5550,
+    "step": -5,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-3",
+    "midicent": 5550,
+    "step": -5,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#3",
+    "midicent": 5600,
+    "step": -5,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+3",
+    "midicent": 5650,
+    "step": -5,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-3",
+    "midicent": 5550,
+    "step": -4,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab3",
+    "midicent": 5600,
+    "step": -4,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+3",
+    "midicent": 5650,
+    "step": -4,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-3",
+    "midicent": 5650,
+    "step": -4,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A3",
+    "midicent": 5700,
+    "step": -4,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+3",
+    "midicent": 5750,
+    "step": -4,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-3",
+    "midicent": 5750,
+    "step": -4,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#3",
+    "midicent": 5800,
+    "step": -4,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+3",
+    "midicent": 5850,
+    "step": -4,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-3",
+    "midicent": 5750,
+    "step": -3,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb3",
+    "midicent": 5800,
+    "step": -3,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+3",
+    "midicent": 5850,
+    "step": -3,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-3",
+    "midicent": 5850,
+    "step": -3,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B3",
+    "midicent": 5900,
+    "step": -3,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+3",
+    "midicent": 5950,
+    "step": -3,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-3",
+    "midicent": 5950,
+    "step": -3,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#3",
+    "midicent": 6000,
+    "step": -3,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+3",
+    "midicent": 6050,
+    "step": -3,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Cb-4",
+    "midicent": 5850,
+    "step": -2,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb4",
+    "midicent": 5900,
+    "step": -2,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+4",
+    "midicent": 5950,
+    "step": -2,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-4",
+    "midicent": 5950,
+    "step": -2,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C4",
+    "midicent": 6000,
+    "step": -2,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+4",
+    "midicent": 6050,
+    "step": -2,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-4",
+    "midicent": 6050,
+    "step": -2,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#4",
+    "midicent": 6100,
+    "step": -2,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+4",
+    "midicent": 6150,
+    "step": -2,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-4",
+    "midicent": 6050,
+    "step": -1,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db4",
+    "midicent": 6100,
+    "step": -1,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+4",
+    "midicent": 6150,
+    "step": -1,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-4",
+    "midicent": 6150,
+    "step": -1,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D4",
+    "midicent": 6200,
+    "step": -1,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+4",
+    "midicent": 6250,
+    "step": -1,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-4",
+    "midicent": 6250,
+    "step": -1,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#4",
+    "midicent": 6300,
+    "step": -1,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+4",
+    "midicent": 6350,
+    "step": -1,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-4",
+    "midicent": 6250,
+    "step": 0,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb4",
+    "midicent": 6300,
+    "step": 0,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+4",
+    "midicent": 6350,
+    "step": 0,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-4",
+    "midicent": 6350,
+    "step": 0,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E4",
+    "midicent": 6400,
+    "step": 0,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+4",
+    "midicent": 6450,
+    "step": 0,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-4",
+    "midicent": 6450,
+    "step": 0,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#4",
+    "midicent": 6500,
+    "step": 0,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+4",
+    "midicent": 6550,
+    "step": 0,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-4",
+    "midicent": 6350,
+    "step": 1,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb4",
+    "midicent": 6400,
+    "step": 1,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+4",
+    "midicent": 6450,
+    "step": 1,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-4",
+    "midicent": 6450,
+    "step": 1,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F4",
+    "midicent": 6500,
+    "step": 1,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+4",
+    "midicent": 6550,
+    "step": 1,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-4",
+    "midicent": 6550,
+    "step": 1,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#4",
+    "midicent": 6600,
+    "step": 1,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+4",
+    "midicent": 6650,
+    "step": 1,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-4",
+    "midicent": 6550,
+    "step": 2,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb4",
+    "midicent": 6600,
+    "step": 2,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+4",
+    "midicent": 6650,
+    "step": 2,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-4",
+    "midicent": 6650,
+    "step": 2,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G4",
+    "midicent": 6700,
+    "step": 2,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+4",
+    "midicent": 6750,
+    "step": 2,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-4",
+    "midicent": 6750,
+    "step": 2,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#4",
+    "midicent": 6800,
+    "step": 2,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+4",
+    "midicent": 6850,
+    "step": 2,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-4",
+    "midicent": 6750,
+    "step": 3,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab4",
+    "midicent": 6800,
+    "step": 3,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+4",
+    "midicent": 6850,
+    "step": 3,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-4",
+    "midicent": 6850,
+    "step": 3,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A4",
+    "midicent": 6900,
+    "step": 3,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+4",
+    "midicent": 6950,
+    "step": 3,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-4",
+    "midicent": 6950,
+    "step": 3,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#4",
+    "midicent": 7000,
+    "step": 3,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+4",
+    "midicent": 7050,
+    "step": 3,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-4",
+    "midicent": 6950,
+    "step": 4,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb4",
+    "midicent": 7000,
+    "step": 4,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+4",
+    "midicent": 7050,
+    "step": 4,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-4",
+    "midicent": 7050,
+    "step": 4,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B4",
+    "midicent": 7100,
+    "step": 4,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+4",
+    "midicent": 7150,
+    "step": 4,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-4",
+    "midicent": 7150,
+    "step": 4,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#4",
+    "midicent": 7200,
+    "step": 4,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+4",
+    "midicent": 7250,
+    "step": 4,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Cb-5",
+    "midicent": 7050,
+    "step": 5,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb5",
+    "midicent": 7100,
+    "step": 5,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+5",
+    "midicent": 7150,
+    "step": 5,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-5",
+    "midicent": 7150,
+    "step": 5,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C5",
+    "midicent": 7200,
+    "step": 5,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+5",
+    "midicent": 7250,
+    "step": 5,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-5",
+    "midicent": 7250,
+    "step": 5,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#5",
+    "midicent": 7300,
+    "step": 5,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+5",
+    "midicent": 7350,
+    "step": 5,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-5",
+    "midicent": 7250,
+    "step": 6,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db5",
+    "midicent": 7300,
+    "step": 6,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+5",
+    "midicent": 7350,
+    "step": 6,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-5",
+    "midicent": 7350,
+    "step": 6,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D5",
+    "midicent": 7400,
+    "step": 6,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+5",
+    "midicent": 7450,
+    "step": 6,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-5",
+    "midicent": 7450,
+    "step": 6,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#5",
+    "midicent": 7500,
+    "step": 6,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+5",
+    "midicent": 7550,
+    "step": 6,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-5",
+    "midicent": 7450,
+    "step": 7,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb5",
+    "midicent": 7500,
+    "step": 7,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+5",
+    "midicent": 7550,
+    "step": 7,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-5",
+    "midicent": 7550,
+    "step": 7,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E5",
+    "midicent": 7600,
+    "step": 7,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+5",
+    "midicent": 7650,
+    "step": 7,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-5",
+    "midicent": 7650,
+    "step": 7,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#5",
+    "midicent": 7700,
+    "step": 7,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+5",
+    "midicent": 7750,
+    "step": 7,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-5",
+    "midicent": 7550,
+    "step": 8,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb5",
+    "midicent": 7600,
+    "step": 8,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+5",
+    "midicent": 7650,
+    "step": 8,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-5",
+    "midicent": 7650,
+    "step": 8,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F5",
+    "midicent": 7700,
+    "step": 8,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+5",
+    "midicent": 7750,
+    "step": 8,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-5",
+    "midicent": 7750,
+    "step": 8,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#5",
+    "midicent": 7800,
+    "step": 8,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+5",
+    "midicent": 7850,
+    "step": 8,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-5",
+    "midicent": 7750,
+    "step": 9,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb5",
+    "midicent": 7800,
+    "step": 9,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+5",
+    "midicent": 7850,
+    "step": 9,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-5",
+    "midicent": 7850,
+    "step": 9,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G5",
+    "midicent": 7900,
+    "step": 9,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+5",
+    "midicent": 7950,
+    "step": 9,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-5",
+    "midicent": 7950,
+    "step": 9,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#5",
+    "midicent": 8000,
+    "step": 9,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+5",
+    "midicent": 8050,
+    "step": 9,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-5",
+    "midicent": 7950,
+    "step": 10,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab5",
+    "midicent": 8000,
+    "step": 10,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+5",
+    "midicent": 8050,
+    "step": 10,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-5",
+    "midicent": 8050,
+    "step": 10,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A5",
+    "midicent": 8100,
+    "step": 10,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+5",
+    "midicent": 8150,
+    "step": 10,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-5",
+    "midicent": 8150,
+    "step": 10,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#5",
+    "midicent": 8200,
+    "step": 10,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+5",
+    "midicent": 8250,
+    "step": 10,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-5",
+    "midicent": 8150,
+    "step": 11,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb5",
+    "midicent": 8200,
+    "step": 11,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+5",
+    "midicent": 8250,
+    "step": 11,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-5",
+    "midicent": 8250,
+    "step": 11,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B5",
+    "midicent": 8300,
+    "step": 11,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+5",
+    "midicent": 8350,
+    "step": 11,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-5",
+    "midicent": 8350,
+    "step": 11,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#5",
+    "midicent": 8400,
+    "step": 11,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+5",
+    "midicent": 8450,
+    "step": 11,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Cb-6",
+    "midicent": 8250,
+    "step": 12,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb6",
+    "midicent": 8300,
+    "step": 12,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+6",
+    "midicent": 8350,
+    "step": 12,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-6",
+    "midicent": 8350,
+    "step": 12,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C6",
+    "midicent": 8400,
+    "step": 12,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+6",
+    "midicent": 8450,
+    "step": 12,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-6",
+    "midicent": 8450,
+    "step": 12,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#6",
+    "midicent": 8500,
+    "step": 12,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+6",
+    "midicent": 8550,
+    "step": 12,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-6",
+    "midicent": 8450,
+    "step": 13,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db6",
+    "midicent": 8500,
+    "step": 13,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+6",
+    "midicent": 8550,
+    "step": 13,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-6",
+    "midicent": 8550,
+    "step": 13,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D6",
+    "midicent": 8600,
+    "step": 13,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+6",
+    "midicent": 8650,
+    "step": 13,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-6",
+    "midicent": 8650,
+    "step": 13,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#6",
+    "midicent": 8700,
+    "step": 13,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+6",
+    "midicent": 8750,
+    "step": 13,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-6",
+    "midicent": 8650,
+    "step": 14,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb6",
+    "midicent": 8700,
+    "step": 14,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+6",
+    "midicent": 8750,
+    "step": 14,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-6",
+    "midicent": 8750,
+    "step": 14,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E6",
+    "midicent": 8800,
+    "step": 14,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+6",
+    "midicent": 8850,
+    "step": 14,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-6",
+    "midicent": 8850,
+    "step": 14,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#6",
+    "midicent": 8900,
+    "step": 14,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+6",
+    "midicent": 8950,
+    "step": 14,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-6",
+    "midicent": 8750,
+    "step": 15,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb6",
+    "midicent": 8800,
+    "step": 15,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+6",
+    "midicent": 8850,
+    "step": 15,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-6",
+    "midicent": 8850,
+    "step": 15,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F6",
+    "midicent": 8900,
+    "step": 15,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+6",
+    "midicent": 8950,
+    "step": 15,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-6",
+    "midicent": 8950,
+    "step": 15,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#6",
+    "midicent": 9000,
+    "step": 15,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+6",
+    "midicent": 9050,
+    "step": 15,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-6",
+    "midicent": 8950,
+    "step": 16,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb6",
+    "midicent": 9000,
+    "step": 16,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+6",
+    "midicent": 9050,
+    "step": 16,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-6",
+    "midicent": 9050,
+    "step": 16,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G6",
+    "midicent": 9100,
+    "step": 16,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+6",
+    "midicent": 9150,
+    "step": 16,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-6",
+    "midicent": 9150,
+    "step": 16,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#6",
+    "midicent": 9200,
+    "step": 16,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+6",
+    "midicent": 9250,
+    "step": 16,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-6",
+    "midicent": 9150,
+    "step": 17,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab6",
+    "midicent": 9200,
+    "step": 17,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+6",
+    "midicent": 9250,
+    "step": 17,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-6",
+    "midicent": 9250,
+    "step": 17,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A6",
+    "midicent": 9300,
+    "step": 17,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+6",
+    "midicent": 9350,
+    "step": 17,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-6",
+    "midicent": 9350,
+    "step": 17,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#6",
+    "midicent": 9400,
+    "step": 17,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+6",
+    "midicent": 9450,
+    "step": 17,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-6",
+    "midicent": 9350,
+    "step": 18,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb6",
+    "midicent": 9400,
+    "step": 18,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+6",
+    "midicent": 9450,
+    "step": 18,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-6",
+    "midicent": 9450,
+    "step": 18,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B6",
+    "midicent": 9500,
+    "step": 18,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+6",
+    "midicent": 9550,
+    "step": 18,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-6",
+    "midicent": 9550,
+    "step": 18,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#6",
+    "midicent": 9600,
+    "step": 18,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+6",
+    "midicent": 9650,
+    "step": 18,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Cb-7",
+    "midicent": 9450,
+    "step": 19,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb7",
+    "midicent": 9500,
+    "step": 19,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+7",
+    "midicent": 9550,
+    "step": 19,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-7",
+    "midicent": 9550,
+    "step": 19,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C7",
+    "midicent": 9600,
+    "step": 19,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+7",
+    "midicent": 9650,
+    "step": 19,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-7",
+    "midicent": 9650,
+    "step": 19,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#7",
+    "midicent": 9700,
+    "step": 19,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+7",
+    "midicent": 9750,
+    "step": 19,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-7",
+    "midicent": 9650,
+    "step": 20,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db7",
+    "midicent": 9700,
+    "step": 20,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+7",
+    "midicent": 9750,
+    "step": 20,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-7",
+    "midicent": 9750,
+    "step": 20,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D7",
+    "midicent": 9800,
+    "step": 20,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+7",
+    "midicent": 9850,
+    "step": 20,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-7",
+    "midicent": 9850,
+    "step": 20,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#7",
+    "midicent": 9900,
+    "step": 20,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+7",
+    "midicent": 9950,
+    "step": 20,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-7",
+    "midicent": 9850,
+    "step": 21,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb7",
+    "midicent": 9900,
+    "step": 21,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+7",
+    "midicent": 9950,
+    "step": 21,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-7",
+    "midicent": 9950,
+    "step": 21,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E7",
+    "midicent": 10000,
+    "step": 21,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+7",
+    "midicent": 10050,
+    "step": 21,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-7",
+    "midicent": 10050,
+    "step": 21,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#7",
+    "midicent": 10100,
+    "step": 21,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+7",
+    "midicent": 10150,
+    "step": 21,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-7",
+    "midicent": 9950,
+    "step": 22,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb7",
+    "midicent": 10000,
+    "step": 22,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+7",
+    "midicent": 10050,
+    "step": 22,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-7",
+    "midicent": 10050,
+    "step": 22,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F7",
+    "midicent": 10100,
+    "step": 22,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+7",
+    "midicent": 10150,
+    "step": 22,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-7",
+    "midicent": 10150,
+    "step": 22,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#7",
+    "midicent": 10200,
+    "step": 22,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+7",
+    "midicent": 10250,
+    "step": 22,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-7",
+    "midicent": 10150,
+    "step": 23,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb7",
+    "midicent": 10200,
+    "step": 23,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+7",
+    "midicent": 10250,
+    "step": 23,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-7",
+    "midicent": 10250,
+    "step": 23,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G7",
+    "midicent": 10300,
+    "step": 23,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+7",
+    "midicent": 10350,
+    "step": 23,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-7",
+    "midicent": 10350,
+    "step": 23,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#7",
+    "midicent": 10400,
+    "step": 23,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+7",
+    "midicent": 10450,
+    "step": 23,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-7",
+    "midicent": 10350,
+    "step": 24,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab7",
+    "midicent": 10400,
+    "step": 24,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+7",
+    "midicent": 10450,
+    "step": 24,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-7",
+    "midicent": 10450,
+    "step": 24,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A7",
+    "midicent": 10500,
+    "step": 24,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+7",
+    "midicent": 10550,
+    "step": 24,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-7",
+    "midicent": 10550,
+    "step": 24,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#7",
+    "midicent": 10600,
+    "step": 24,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+7",
+    "midicent": 10650,
+    "step": 24,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-7",
+    "midicent": 10550,
+    "step": 25,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb7",
+    "midicent": 10600,
+    "step": 25,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+7",
+    "midicent": 10650,
+    "step": 25,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-7",
+    "midicent": 10650,
+    "step": 25,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B7",
+    "midicent": 10700,
+    "step": 25,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+7",
+    "midicent": 10750,
+    "step": 25,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-7",
+    "midicent": 10750,
+    "step": 25,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#7",
+    "midicent": 10800,
+    "step": 25,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+7",
+    "midicent": 10850,
+    "step": 25,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Cb-8",
+    "midicent": 10650,
+    "step": 26,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Cb8",
+    "midicent": 10700,
+    "step": 26,
+    "accidental": "flat"
+  },
+  {
+    "name": "Cb+8",
+    "midicent": 10750,
+    "step": 26,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "C-8",
+    "midicent": 10750,
+    "step": 26,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "C8",
+    "midicent": 10800,
+    "step": 26,
+    "accidental": "natural"
+  },
+  {
+    "name": "C+8",
+    "midicent": 10850,
+    "step": 26,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "C#-8",
+    "midicent": 10850,
+    "step": 26,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "C#8",
+    "midicent": 10900,
+    "step": 26,
+    "accidental": "sharp"
+  },
+  {
+    "name": "C#+8",
+    "midicent": 10950,
+    "step": 26,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Db-8",
+    "midicent": 10850,
+    "step": 27,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Db8",
+    "midicent": 10900,
+    "step": 27,
+    "accidental": "flat"
+  },
+  {
+    "name": "Db+8",
+    "midicent": 10950,
+    "step": 27,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "D-8",
+    "midicent": 10950,
+    "step": 27,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "D8",
+    "midicent": 11000,
+    "step": 27,
+    "accidental": "natural"
+  },
+  {
+    "name": "D+8",
+    "midicent": 11050,
+    "step": 27,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "D#-8",
+    "midicent": 11050,
+    "step": 27,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "D#8",
+    "midicent": 11100,
+    "step": 27,
+    "accidental": "sharp"
+  },
+  {
+    "name": "D#+8",
+    "midicent": 11150,
+    "step": 27,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Eb-8",
+    "midicent": 11050,
+    "step": 28,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Eb8",
+    "midicent": 11100,
+    "step": 28,
+    "accidental": "flat"
+  },
+  {
+    "name": "Eb+8",
+    "midicent": 11150,
+    "step": 28,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "E-8",
+    "midicent": 11150,
+    "step": 28,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "E8",
+    "midicent": 11200,
+    "step": 28,
+    "accidental": "natural"
+  },
+  {
+    "name": "E+8",
+    "midicent": 11250,
+    "step": 28,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "E#-8",
+    "midicent": 11250,
+    "step": 28,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "E#8",
+    "midicent": 11300,
+    "step": 28,
+    "accidental": "sharp"
+  },
+  {
+    "name": "E#+8",
+    "midicent": 11350,
+    "step": 28,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Fb-8",
+    "midicent": 11150,
+    "step": 29,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Fb8",
+    "midicent": 11200,
+    "step": 29,
+    "accidental": "flat"
+  },
+  {
+    "name": "Fb+8",
+    "midicent": 11250,
+    "step": 29,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "F-8",
+    "midicent": 11250,
+    "step": 29,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "F8",
+    "midicent": 11300,
+    "step": 29,
+    "accidental": "natural"
+  },
+  {
+    "name": "F+8",
+    "midicent": 11350,
+    "step": 29,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "F#-8",
+    "midicent": 11350,
+    "step": 29,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "F#8",
+    "midicent": 11400,
+    "step": 29,
+    "accidental": "sharp"
+  },
+  {
+    "name": "F#+8",
+    "midicent": 11450,
+    "step": 29,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Gb-8",
+    "midicent": 11350,
+    "step": 30,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Gb8",
+    "midicent": 11400,
+    "step": 30,
+    "accidental": "flat"
+  },
+  {
+    "name": "Gb+8",
+    "midicent": 11450,
+    "step": 30,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "G-8",
+    "midicent": 11450,
+    "step": 30,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "G8",
+    "midicent": 11500,
+    "step": 30,
+    "accidental": "natural"
+  },
+  {
+    "name": "G+8",
+    "midicent": 11550,
+    "step": 30,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "G#-8",
+    "midicent": 11550,
+    "step": 30,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "G#8",
+    "midicent": 11600,
+    "step": 30,
+    "accidental": "sharp"
+  },
+  {
+    "name": "G#+8",
+    "midicent": 11650,
+    "step": 30,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Ab-8",
+    "midicent": 11550,
+    "step": 31,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Ab8",
+    "midicent": 11600,
+    "step": 31,
+    "accidental": "flat"
+  },
+  {
+    "name": "Ab+8",
+    "midicent": 11650,
+    "step": 31,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "A-8",
+    "midicent": 11650,
+    "step": 31,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "A8",
+    "midicent": 11700,
+    "step": 31,
+    "accidental": "natural"
+  },
+  {
+    "name": "A+8",
+    "midicent": 11750,
+    "step": 31,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "A#-8",
+    "midicent": 11750,
+    "step": 31,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "A#8",
+    "midicent": 11800,
+    "step": 31,
+    "accidental": "sharp"
+  },
+  {
+    "name": "A#+8",
+    "midicent": 11850,
+    "step": 31,
+    "accidental": "three-quarter-sharp"
+  },
+  {
+    "name": "Bb-8",
+    "midicent": 11750,
+    "step": 32,
+    "accidental": "quarter-flat"
+  },
+  {
+    "name": "Bb8",
+    "midicent": 11800,
+    "step": 32,
+    "accidental": "flat"
+  },
+  {
+    "name": "Bb+8",
+    "midicent": 11850,
+    "step": 32,
+    "accidental": "three-quarter-flat"
+  },
+  {
+    "name": "B-8",
+    "midicent": 11850,
+    "step": 32,
+    "accidental": "half-flat"
+  },
+  {
+    "name": "B8",
+    "midicent": 11900,
+    "step": 32,
+    "accidental": "natural"
+  },
+  {
+    "name": "B+8",
+    "midicent": 11950,
+    "step": 32,
+    "accidental": "half-sharp"
+  },
+  {
+    "name": "B#-8",
+    "midicent": 11950,
+    "step": 32,
+    "accidental": "quarter-sharp"
+  },
+  {
+    "name": "B#8",
+    "midicent": 12000,
+    "step": 32,
+    "accidental": "sharp"
+  },
+  {
+    "name": "B#+8",
+    "midicent": 12050,
+    "step": 32,
+    "accidental": "three-quarter-sharp"
+  }
+]
