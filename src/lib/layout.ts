@@ -2,8 +2,15 @@ import pitchTable from "@/lib/pitchTable.json";
 
 export const STAFF_TOP_Y = 40;        // Y position of the top staff line
 export const STAFF_LINE_SPACING = 10; // Vertical distance between staff lines
+// === Horizontal Layout ===
+export const NOTE_BASE_X = 90;      // Default X position for noteheads
+export const NOTE_COLLISION_OFFSET = 12.5; // Horizontal shift when notes collide
 
-// Type definition for each pitch entry
+// === Accidental Layout ===
+export const ACCIDENTAL_BASE_X = 90;         // Default X position for accidental column
+export const ACCIDENTAL_LEFT_OFFSET = 9.5;    // Horizontal left shift when accidentals collide
+export const ACCIDENTAL_DYNAMIC_MULTIPLIER = 2; // Multiplier for close vertical accidental spacing (Δstep < 2)
+
 type PitchEntry = {
   name: string;
   midicent: number;
@@ -11,15 +18,11 @@ type PitchEntry = {
   accidental: string;
 };
 
-// === Build Lookup Table ===
 const pitchLookup: Record<string, PitchEntry> = {};
 for (const entry of pitchTable) {
   pitchLookup[entry.name] = entry;
 }
 
-/**
- * Converts a pitch name (e.g. "C#4") to its vertical Y position on the SVG staff.
- */
 export function pitchNameToY(pitch: string): number {
   const entry = pitchLookup[pitch];
   if (!entry) {
@@ -29,31 +32,18 @@ export function pitchNameToY(pitch: string): number {
   return stepIndexToY(entry.step);
 }
 
-/**
- * Maps a step index (0 = bottom line) to a vertical SVG Y coordinate.
- * Each step represents one diatonic movement (line or space).
- */
 export function stepIndexToY(step: number): number {
   return STAFF_TOP_Y + STAFF_LINE_SPACING * (4 - step / 2);
 }
 
-/**
- * Retrieves the raw step index for a given pitch (relative to treble clef E4 = 0).
- */
 export function pitchNameToStep(pitch: string): number | null {
   return pitchLookup[pitch]?.step ?? null;
 }
 
-/**
- * Retrieves the midicent value for a given pitch (for audio playback mapping).
- */
 export function pitchNameToMidicent(pitch: string): number | null {
   return pitchLookup[pitch]?.midicent ?? null;
 }
 
-/**
- * Retrieves the accidental type string (e.g. "flat", "sharp", "half-flat") for rendering symbols.
- */
 export function pitchNameToAccidental(pitch: string): string | null {
   return pitchLookup[pitch]?.accidental ?? null;
 }

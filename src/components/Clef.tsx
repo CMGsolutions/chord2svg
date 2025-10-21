@@ -26,7 +26,7 @@ const Clef: React.FC<ClefProps> = ({ clef }) => {
   return (
     <>
       <text
-        x={10}
+        x={2}
         y={yOffset}
         fontSize={fontSize}
         fontFamily="serif"
