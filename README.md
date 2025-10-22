@@ -65,7 +65,7 @@ To quickly test and visualize chords:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chord2svg.git
+   git clone https://github.com/CMGsolutions/chord2svg.git
    cd chord2svg
    ```
 
