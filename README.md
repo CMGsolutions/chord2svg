@@ -1,7 +1,8 @@
 # 🎼 Chord2SVG
+### by **Carlos Mauro @ CMG Solutions**
 
 **Chord2SVG** is a high-efficiency, algorithmic system for generating chords in **staff notation** using SVG rendering.  
-It provides a **consistent**, **automated**, and **optimization-driven** approach to engraving, bypassing the need for traditional notation editors like **Finale**, **Sibelius**, or **Dorico**.
+It provides a **consistent**, **automated**, and **optimization-driven** approach to batch music engraving.
 
 By directly computing optimal notehead and accidental positions through mathematical and recursive layout logic, **Chord2SVG** achieves engraving-level precision at a fraction of the complexity — ideal for composers, developers, or researchers who want consistent notation output without relying on heavyweight GUI-based software.
 

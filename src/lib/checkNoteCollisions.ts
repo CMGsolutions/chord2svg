@@ -1,4 +1,4 @@
-import pitchTable from "@/lib/pitchTable.json";
+import pitchTable from "@/lib/pitchTable.json" assert { type: "json" };
 import { NOTE_BASE_X, NOTE_COLLISION_OFFSET } from "@/lib/layout";
 
 /**
@@ -9,11 +9,16 @@ export function computeXPositions(
   baseX = NOTE_BASE_X,
   offset = NOTE_COLLISION_OFFSET
 ): { pitch: string; x: number }[] {
+  if (!Array.isArray(pitches)) {
+    console.error("computeXPositions called with invalid pitches:", pitches);
+    return [];
+  }
+
   const pitchSteps = pitches
     .map((p) => {
       const entry = pitchTable.find((e) => e.name === p);
       if (!entry) {
-        console.warn(`Pitch ${p} not found in pitchTable`);
+        console.warn(`⚠️ Pitch ${p} not found in pitchTable`);
         return null;
       }
       return { pitch: p, step: entry.step };
@@ -31,22 +36,24 @@ export function computeXPositions(
 
     if (prev && Math.abs(curr.step - prev.step) <= 1) {
       if (!prevShifted) {
-        // shift only if previous wasn't already moved
         x = baseX + offset;
         prevShifted = true;
         console.log(
-          `Collision between ${prev.pitch} and ${curr.pitch} → shifting ${curr.pitch} to x=${x}`
+          `🎵 Collision between ${prev.pitch} and ${curr.pitch} → shifting ${curr.pitch} to x=${x}`
         );
       } else {
         console.log(
-          `Skipped redundant collision: ${curr.pitch} already visually separated.`
+          `🎵 Skipped redundant collision: ${curr.pitch} already visually separated.`
         );
-        prevShifted = false; // reset flag
+        prevShifted = false;
       }
     } else {
       prevShifted = false;
     }
+
     positions.push({ pitch: curr.pitch, x });
   }
+
+  console.log("✅ Final notehead positions:", positions);
   return positions;
 }

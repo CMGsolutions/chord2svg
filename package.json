@@ -7,13 +7,14 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "cli": "ts-node src/cli/index.ts"
+    "cli": "ts-node -P tsconfig.cli.json -r tsconfig-paths/register ./cli/chord2svg.ts"
   },
   "dependencies": {
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

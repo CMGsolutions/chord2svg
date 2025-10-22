@@ -3,11 +3,11 @@ import pitchTable from "@/lib/pitchTable.json";
 export const STAFF_TOP_Y = 40;        // Y position of the top staff line
 export const STAFF_LINE_SPACING = 10; // Vertical distance between staff lines
 // === Horizontal Layout ===
-export const NOTE_BASE_X = 90;      // Default X position for noteheads
-export const NOTE_COLLISION_OFFSET = 12.5; // Horizontal shift when notes collide
+export const NOTE_BASE_X = 100;      // Default X position for noteheads
+export const NOTE_COLLISION_OFFSET = 15; // Horizontal shift when notes collide
 
 // === Accidental Layout ===
-export const ACCIDENTAL_BASE_X = 90;         // Default X position for accidental column
+export const ACCIDENTAL_BASE_X = 100;         // Default X position for accidental column
 export const ACCIDENTAL_LEFT_OFFSET = 9.5;    // Horizontal left shift when accidentals collide
 export const ACCIDENTAL_DYNAMIC_MULTIPLIER = 2; // Multiplier for close vertical accidental spacing (Δstep < 2)
 

@@ -1,30 +1,43 @@
 "use client";
 
-import { useState } from "react";
-import Staff from "@/components/Staff";
-import Clef from "@/components/Clef";
-import NoteHead from "@/components/NoteHead";
+import { useState, useMemo } from "react";
+import SVGChordRenderer from "@/components/SVGChordRenderer";
 import { computeXPositions } from "@/lib/checkNoteCollisions";
 import { computeAccidentalOffsets } from "@/lib/checkAccidentalCollisions";
 import { ACCIDENTAL_BASE_X, ACCIDENTAL_LEFT_OFFSET } from "@/lib/layout";
 
-
-// const testChordPitches = ["C4","E-4", "G4", "Bb-4", "G6", "G2"];
-const testChordPitches = ["C5","Bb-4", "A4", "G4", "Db-4", "D#4"];
+// === Example test chords ===
+// const testChordPitches = ["C4", "E-4", "G4", "Bb-4", "G6", "G2"];
 // const testChordPitches = ["Gb+4", "Ab-4", "Bb-3", "Db-5"];
 // const testChordPitches = ["Bb-3", "Ab+4"];
-// const testChordPitches = ["E-2","F2","G2","Ab2","A#2","C3","D#3","F3","G#3","Bb3","C4","Db4","E4","F#4","A4"];
-
-
-const notePositions = computeXPositions(testChordPitches);
-const accidentalPositions = computeAccidentalOffsets(
-  testChordPitches,
-  ACCIDENTAL_BASE_X,
-  ACCIDENTAL_LEFT_OFFSET
-);
+const testChordPitches = ["E-2", "F2", "G2", "Ab2", "A#2", "C3", "D#3", "F3", "G#3", "Bb3", "C4", "Db4", "E4", "F#4", "A4"];
+// const testChordPitches = ["C5", "Bb-4", "A4", "G4", "Db-4", "D#4"];
 
 export default function Home() {
   const [clef, setClef] = useState<"treble" | "bass" | "alto">("treble");
+  const [svgContent, setSvgContent] = useState<string>("");
+
+  const { notePositions, accidentalPositions } = useMemo(() => {
+    const notePositions = computeXPositions(testChordPitches);
+    const accidentalPositions = computeAccidentalOffsets(
+      testChordPitches,
+      ACCIDENTAL_BASE_X,
+      ACCIDENTAL_LEFT_OFFSET
+    );
+    return { notePositions, accidentalPositions };
+  }, [testChordPitches]);
+
+  // 🆕 function to trigger download
+  const downloadSVG = () => {
+    if (!svgContent) return;
+    const blob = new Blob([svgContent], { type: "image/svg+xml" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `chord_${clef}.svg`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
 
   return (
     <main className="flex flex-col items-center gap-8 p-12">
@@ -41,26 +54,30 @@ export default function Home() {
         </select>
       </label>
 
+      {/* SVG preview */}
       <div className="flex justify-center items-center h-[300px] bg-white rounded shadow">
-        <div className="scale-[1] origin-top-left w-[200px] h-[200px] flex justify-center items-center">
-          <svg
-            viewBox="0 0 200 200"
-            preserveAspectRatio="xMinYMax meet"
-            className="h-auto w-auto overflow-visible"
-          >
-            <g transform="translate(30, 60)">
-              <Clef clef={clef} />
-              <Staff />
-              {testChordPitches.map((pitch, i) => {
-                const note = notePositions.find(n => n.pitch === pitch);
-                const acc = accidentalPositions.find(a => a.pitch === pitch);
-                if (!note || !acc) return null;
-                return <NoteHead key={i} x={note.x} pitch={pitch} clef={clef} accX={acc.accX} />;
-              })}
-            </g>
-          </svg>
+        <div className="w-[400px] h-[300px] flex justify-center items-center">
+          <SVGChordRenderer
+            notes={testChordPitches}
+            clef={clef}
+            scale={1}
+            onSVGReady={setSvgContent} // 🆕 receive SVG data
+          />
         </div>
       </div>
+
+      {/* 🆕 Download button */}
+      <button
+        onClick={downloadSVG}
+        className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+      >
+        Download SVG
+      </button>
+
+      {/* Debug info (optional) */}
+      <pre className="text-xs text-gray-600 bg-gray-100 p-2 rounded mt-4 w-[400px] overflow-x-auto">
+        {JSON.stringify({ notePositions, accidentalPositions }, null, 2)}
+      </pre>
     </main>
   );
 }
