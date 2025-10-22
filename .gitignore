@@ -40,4 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/outputs/*
+# Ignore CLI output folder
+outputs/
