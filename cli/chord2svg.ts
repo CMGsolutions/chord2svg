@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from "fs";
 import path from "path";
+import { renderChordSVG } from "@/lib/svgRender/renderChord";
 import { computeAccidentalOffsets } from "@/lib/checkAccidentalCollisions";
 import { computeXPositions } from "@/lib/checkNoteCollisions";
 import { ACCIDENTAL_BASE_X, ACCIDENTAL_LEFT_OFFSET } from "@/lib/layout";
@@ -12,7 +13,7 @@ if (!fs.existsSync(OUTPUT_DIR)) {
   console.log(`📁 Created output directory: ${OUTPUT_DIR}`);
 }
 
-// === Detect clef automatically based on pitch range ===
+// === Detect clef automatically ===
 function detectClef(pitches: string[]): "treble" | "bass" | "alto" {
   const pitchTable = require("@/lib/pitchTable.json");
   const midicents = pitches.map((p) => {
@@ -25,9 +26,10 @@ function detectClef(pitches: string[]): "treble" | "bass" | "alto" {
   return "treble";
 }
 
-// === Compute notehead and accidental positions for a chord ===
-function renderChordSVG(notes: string[], clef?: string) {
-  const autoClef = clef || detectClef(notes);
+// === Compute note/accidental positions and export identical SVG ===
+function generateChordSVG(notes: string[], clef?: string): string {
+  const chosenClef = (clef as any) || detectClef(notes);
+
   const notePositions = computeXPositions(notes);
   const accidentalPositions = computeAccidentalOffsets(
     notes,
@@ -35,14 +37,21 @@ function renderChordSVG(notes: string[], clef?: string) {
     ACCIDENTAL_LEFT_OFFSET
   );
 
-  return {
-    clef: autoClef,
-    notes: notes.map((pitch) => ({
-      pitch,
-      noteX: notePositions.find((n) => n.pitch === pitch)?.x ?? 90,
-      accX: accidentalPositions.find((a) => a.pitch === pitch)?.accX ?? 90,
-    })),
-  };
+  const chordData = notes.map((pitch) => ({
+    pitch,
+    noteX: notePositions.find((n) => n.pitch === pitch)?.x ?? 90,
+    accX: accidentalPositions.find((a) => a.pitch === pitch)?.accX ?? 90,
+  }));
+
+  // ✅ Use the exact same renderer as web
+  const svgMarkup = renderChordSVG({
+    clef: chosenClef,
+    notes: chordData,
+    x: 0,
+    width: 200,
+  });
+
+  return svgMarkup;
 }
 
 // === CLI argument parsing ===
@@ -59,41 +68,9 @@ if (!data.chords || !Array.isArray(data.chords)) {
   process.exit(1);
 }
 
-// === Process each chord ===
+// === Render and save ===
 data.chords.forEach((chord: any, i: number) => {
-  const svgData = renderChordSVG(chord.notes, chord.clef);
-  console.log(`🎼 Chord #${i + 1}:`, svgData);
-
-  // === Generate minimal SVG (staff + noteheads + accidentals) ===
-  const svgContent = `
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" viewBox="0 0 200 120">
-  <rect width="100%" height="100%" fill="white"/>
-  <g transform="translate(30, 40)">
-    <!-- Staff lines -->
-    ${[0, 10, 20, 30, 40]
-      .map(
-        (y) =>
-          `<line x1="0" x2="150" y1="${y}" y2="${y}" stroke="black" stroke-width="1"/>`
-      )
-      .join("\n")}
-
-    <!-- Notes -->
-    ${svgData.notes
-      .map(
-        (n) => `
-      <!-- Accidental -->
-      <text x="${n.accX - 10}" y="${60 - n.pitch.length * 0}" font-size="18" text-anchor="middle" fill="black">
-        ♭
-      </text>
-      <!-- Notehead -->
-      <ellipse cx="${n.noteX}" cy="${60 - n.pitch.length * 0}" rx="6" ry="4" fill="black"/>
-    `
-      )
-      .join("\n")}
-  </g>
-</svg>
-`;
-
+  const svgContent = generateChordSVG(chord.notes, chord.clef);
   const filePath = path.join(OUTPUT_DIR, `chord_${i + 1}.svg`);
   fs.writeFileSync(filePath, svgContent.trim());
   console.log(`💾 Saved: ${filePath}`);

@@ -8,8 +8,10 @@ export const NOTE_COLLISION_OFFSET = 15; // Horizontal shift when notes collide
 
 // === Accidental Layout ===
 export const ACCIDENTAL_BASE_X = 100;         // Default X position for accidental column
-export const ACCIDENTAL_LEFT_OFFSET = 9.5;    // Horizontal left shift when accidentals collide
+export const ACCIDENTAL_LEFT_OFFSET = 12;    // Horizontal left shift when accidentals collide
 export const ACCIDENTAL_DYNAMIC_MULTIPLIER = 2; // Multiplier for close vertical accidental spacing (Δstep < 2)
+export const ACCIDENTAL_STEP_TOLERANCE = 6; // Threshold for vertical distance (steps) between auto accidental managament
+
 
 type PitchEntry = {
   name: string;

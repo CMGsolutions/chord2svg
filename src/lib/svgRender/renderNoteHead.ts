@@ -62,14 +62,12 @@ export function renderNoteHeadFragment({
   if (layout && accType !== "natural") {
     svg += `<text x="${accidentalX + layout.dx}" y="${y + layout.dy}" font-size="${layout.fontSize}" text-anchor="middle" font-family="Bravura, serif, Arial Unicode MS, serif" fill="#222" stroke="none">${layout.glyph}</text>`;
   }
-  // Notehead (ensure visible, add stroke="none", tweak rx/ry)
-  svg += `<ellipse cx="${x}" cy="${y}" rx="8" ry="6" fill="#111" stroke="none"/>`;
-  // Debug: show notehead center as a small dot (visible)
-  // svg += `<circle cx="${x}" cy="${y}" r="1.5" fill="red" />`;
   // Ledger lines
   for (let i = 0; i < ledgerLines.length; ++i) {
     const yLine = ledgerLines[i];
     svg += `<line x1="${x - 12}" x2="${x + 12}" y1="${yLine}" y2="${yLine}" stroke="black" stroke-width="1"/>`;
   }
+  // Notehead (ensure visible, add stroke="none", tweak rx/ry)
+  svg += `<ellipse cx="${x}" cy="${y}" rx="8" ry="5" fill="#111" stroke="none"/>`;
   return svg;
 }

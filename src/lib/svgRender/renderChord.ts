@@ -15,8 +15,7 @@ export interface RenderNoteEntry {
 export function renderChordSVG({
   clef,
   notes,
-  x = 0,
-  width = 220,
+  width = 220,  // Extract to layout
 }: {
   clef: "treble" | "bass" | "alto";
   notes: RenderNoteEntry[];
@@ -38,9 +37,10 @@ export function renderChordSVG({
 
   return `
 <svg
-  viewBox="0 0 ${width + 80} 200"
+  viewBox="0 0 ${width} 200"
   xmlns="http://www.w3.org/2000/svg"
   preserveAspectRatio="xMinYMin meet"
+  style="overflow:visible;"
 >
   <g transform="translate(40, 90)">
     ${staff}

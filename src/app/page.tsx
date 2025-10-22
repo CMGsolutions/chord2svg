@@ -27,7 +27,7 @@ export default function Home() {
     return { notePositions, accidentalPositions };
   }, [testChordPitches]);
 
-  // 🆕 function to trigger download
+  // function to trigger download
   const downloadSVG = () => {
     if (!svgContent) return;
     const blob = new Blob([svgContent], { type: "image/svg+xml" });
@@ -55,29 +55,24 @@ export default function Home() {
       </label>
 
       {/* SVG preview */}
-      <div className="flex justify-center items-center h-[300px] bg-white rounded shadow">
-        <div className="w-[400px] h-[300px] flex justify-center items-center">
+      <div className="flex justify-center items-center h-[300px] bg-white rounded shadow overflow-visible">
+        <div className="w-[400px] h-[300px] flex justify-center items-center overflow-visible">
           <SVGChordRenderer
             notes={testChordPitches}
             clef={clef}
             scale={1}
-            onSVGReady={setSvgContent} // 🆕 receive SVG data
+            onSVGReady={setSvgContent} // receive SVG data
           />
         </div>
       </div>
 
-      {/* 🆕 Download button */}
+      {/* Download button */}
       <button
         onClick={downloadSVG}
         className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
       >
         Download SVG
       </button>
-
-      {/* Debug info (optional) */}
-      <pre className="text-xs text-gray-600 bg-gray-100 p-2 rounded mt-4 w-[400px] overflow-x-auto">
-        {JSON.stringify({ notePositions, accidentalPositions }, null, 2)}
-      </pre>
     </main>
   );
 }

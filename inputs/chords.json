@@ -2,6 +2,7 @@
   "chords": [
     { "notes": ["C4", "E4", "G4"], "clef": "treble" },
     { "notes": ["E3", "G3", "C4"], "clef": "bass" },
-    { "notes": ["Bb-3", "Db4", "Gb4"] }
+    { "notes": ["Bb-3", "Db4", "Gb4"] },
+    { "notes": ["E-2", "F2", "G2", "Ab2", "A#2", "C3", "D#3", "F3", "G#3", "Bb3", "C4", "Db4", "E4", "F#4", "A4"], "clef": "bass" }
   ]
 }

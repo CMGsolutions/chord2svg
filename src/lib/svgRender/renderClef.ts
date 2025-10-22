@@ -1,5 +1,3 @@
-
-
 import { STAFF_TOP_Y, STAFF_LINE_SPACING } from "@/lib/layout";
 
 const clefSymbols: Record<"treble" | "bass" | "alto", string> = {

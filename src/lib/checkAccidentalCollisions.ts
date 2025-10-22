@@ -1,5 +1,5 @@
 import pitchTable from "@/lib/pitchTable.json";
-import { ACCIDENTAL_BASE_X, ACCIDENTAL_LEFT_OFFSET } from "@/lib/layout";
+import { ACCIDENTAL_BASE_X, ACCIDENTAL_LEFT_OFFSET, ACCIDENTAL_STEP_TOLERANCE } from "@/lib/layout";
 
 /**
  * Computes accidental X positions for a chord.
@@ -10,7 +10,8 @@ import { ACCIDENTAL_BASE_X, ACCIDENTAL_LEFT_OFFSET } from "@/lib/layout";
 export function computeAccidentalOffsets(
   pitches: string[],
   baseX = ACCIDENTAL_BASE_X,
-  offset = ACCIDENTAL_LEFT_OFFSET
+  offset = ACCIDENTAL_LEFT_OFFSET,
+  stepTolenrace = ACCIDENTAL_STEP_TOLERANCE
 ): { pitch: string; accX: number }[] {
   const withIndex = pitches.map((p, i) => {
     const entry = pitchTable.find(e => e.name === p);
@@ -27,7 +28,7 @@ export function computeAccidentalOffsets(
   const xMap = new Map<number, number>();
   for (const s of sorted) xMap.set(s.originalIndex, baseX);
 
-  // === Build clusters (Δstep ≤ 7) ===
+  // === Build clusters (Δstep) ===
   const clusters: typeof sorted[] = [];
   let current: typeof sorted = [];
   for (let i = 0; i < sorted.length; i++) {
@@ -40,7 +41,7 @@ export function computeAccidentalOffsets(
     }
     const prev = current[current.length - 1];
     const gap = Math.abs(curr.step - prev.step);
-    if (gap < 6) {
+    if (gap < stepTolenrace) {
       current.push(curr);
     } else {
       clusters.push(current);
@@ -53,11 +54,11 @@ export function computeAccidentalOffsets(
   // === Apply iterative fanning offsets per cluster ===
   clusters.forEach((cluster, ci) => {
     if (cluster.length < 2) {
-      console.log(`   ➖ Cluster #${ci} has only ${cluster.length} accidental(s); no fanning applied.`);
+      console.log(`Cluster #${ci} has only ${cluster.length} accidental(s); no fanning applied.`);
       return;
     }
 
-    console.log(`🎹 Applying iterative fanning layout to cluster #${ci}:`);
+    console.log(`Applying iterative fanning layout to cluster #${ci}:`);
     let changed = true;
     let pass = 0;
     const MAX_PASSES = 5; // safety limit
@@ -68,7 +69,7 @@ export function computeAccidentalOffsets(
     while (changed && pass < MAX_PASSES) {
       changed = false;
       pass++;
-      console.log(`🔁 Pass ${pass}: checking for collisions...`);
+      console.log(`Pass ${pass}: checking for collisions...`);
 
       for (let i = 0; i < cluster.length; i++) {
         const a = cluster[i];
@@ -82,7 +83,7 @@ export function computeAccidentalOffsets(
           // skip if already visually separated
           if (bX < aX - offset * 0.9) continue;
 
-          if (gap < 6) {
+          if (gap < stepTolenrace) {
             const newX = aX - offset;
             xMap.set(b.originalIndex, newX);
             changed = true;
@@ -92,10 +93,10 @@ export function computeAccidentalOffsets(
       }
     }
 
-    console.log(`✅ Cluster #${ci} stabilized after ${pass} passes`);
+    console.log(`Cluster #${ci} stabilized after ${pass} passes`);
 
     // === Backfill optimization pass (multi-column scan) ===
-    console.log(`🎯 Starting backfill optimization for cluster #${ci}`);
+    console.log(`Starting backfill optimization for cluster #${ci}`);
     const placed: { x: number; step: number }[] = [];
 
     for (const n of cluster) {
@@ -105,7 +106,7 @@ export function computeAccidentalOffsets(
       // Try all possible columns from right to left
       const possibleCols = Array.from({ length: 5 }, (_, k) => baseX - k * offset);
       for (const candidateX of possibleCols) {
-        const conflict = placed.some(p => Math.abs(p.step - currentStep) <= 7 && p.x === candidateX);
+        const conflict = placed.some(p => Math.abs(p.step - currentStep) < stepTolenrace && p.x === candidateX);
         if (!conflict) {
           bestX = candidateX;
           break; // rightmost valid column found
@@ -114,12 +115,12 @@ export function computeAccidentalOffsets(
 
       xMap.set(n.originalIndex, bestX);
       placed.push({ x: bestX, step: currentStep });
-      console.log(`   🧩 Final optimized placement: ${n.pitch} → x=${bestX}`);
+      console.log(`Final optimized placement: ${n.pitch} → x=${bestX}`);
     }
   });
 
-  console.log("✅ Final accidental X map:", Array.from(xMap.entries()).map(([i, x]) => `#${i}: x=${x}`));
-  console.log("🔚 Returning final accidental positions:", withIndex.map(v => ({ pitch: v.pitch, accX: xMap.get(v.originalIndex) ?? baseX })));
+  console.log("Final accidental X map:", Array.from(xMap.entries()).map(([i, x]) => `#${i}: x=${x}`));
+  console.log("Returning final accidental positions:", withIndex.map(v => ({ pitch: v.pitch, accX: xMap.get(v.originalIndex) ?? baseX })));
 
   return withIndex.map(v => ({ pitch: v.pitch, accX: xMap.get(v.originalIndex) ?? baseX }));
 }

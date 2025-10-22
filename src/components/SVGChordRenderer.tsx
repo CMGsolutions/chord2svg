@@ -10,7 +10,7 @@ interface SVGChordRendererProps {
   notes: string[];
   clef: "treble" | "bass" | "alto";
   scale?: number;
-  onSVGReady?: (svg: string) => void; // 🆕 callback prop
+  onSVGReady?: (svg: string) => void;
 }
 
 const SVGChordRenderer: React.FC<SVGChordRendererProps> = ({
@@ -34,7 +34,7 @@ const SVGChordRenderer: React.FC<SVGChordRendererProps> = ({
 
   const svgMarkup = renderChordSVG({ clef, notes: chordData });
 
-  // 🆕 send the SVG string to parent
+  // send the SVG string to parent
   useEffect(() => {
     if (onSVGReady) onSVGReady(svgMarkup);
   }, [svgMarkup]);
